@@ -21,7 +21,6 @@ App({
           },
           success: function(res) {
             console.log("shiqi.debug:", res)
-            console.log("shiqi.debug code:", res.data.errcode)
             if (res.data.errcode == 10000) {
               // 去注册  (暂时没有实现)
               that.registerUser();
